@@ -8,8 +8,9 @@
 </head>
 <body>
     <h1>Exo 1 : Les conditions</h1>
+    <p>
     <?php
-      $age= 16;
+      $age= 17;
       if ($age < 18)
       {
       echo 'Vous êtes mineur';
@@ -18,5 +19,6 @@
         echo 'Vous êtes majeur';
       }
     ?>
+    </p>
 </body>
 </html>
